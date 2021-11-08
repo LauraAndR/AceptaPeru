@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -33,6 +35,8 @@ public class Prueba {
 		driver.navigate().to("https://escritorio-qa.acepta.pe/");// Aquí se ingresa la URL para hacer las pruebas.
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
+	
+	
 	
 	@Test
 	public void Script_0023() throws InterruptedException, IOException, InvalidFormatException {

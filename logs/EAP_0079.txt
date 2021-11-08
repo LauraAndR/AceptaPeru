@@ -1,7 +1,7 @@
 Log de Caso de Prueba EAP_0079
 Tipo CPE: Nota Débito
 Subtipo CPE: Afecta-Inafecta
-URL: http://qaacepta2107.acepta.pe/v01/0F565B05DB894CB7089D175FCF685D8EAAD9DDA8?k=f13a00a1c09697bf4e0de38d4bb6d45c
-Número de CPE: FHHH00000085
+URL: http://qaacepta2108.acepta.pe/v01/87000FEFE8FD1894DCD159125849935D9898B806?k=a988d6d796f806bcf47b96aed4d7112b
+Número de CPE: FHHH00000098
 Resultado: CPE Rechazado por la OSE, código de Error: 2209-El documento modificado en la Nota de debito no esta registrada.-
 ScreenShot de la traza

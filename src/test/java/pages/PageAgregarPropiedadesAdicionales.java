@@ -104,7 +104,7 @@ public class PageAgregarPropiedadesAdicionales {
 		driver.findElement(By.name("valor")).sendKeys("12345678");
 		clickAgregar();
 		
-		crearDocEvidencia.modificarArchivoEvidencia(caso, "Se Agregan Propiedades Adicionales");
+		//crearDocEvidencia.modificarArchivoEvidencia(caso, "Se Agregan Propiedades Adicionales");
 		capturaPantalla.takeScreenShotTest(driver, "Propiedades_Adicionales",caso);
 	}
 	
@@ -115,7 +115,7 @@ public class PageAgregarPropiedadesAdicionales {
 		do {
 			try {
 				Thread.sleep(1000);
-				driver.findElement(By.xpath("/html/body/div[8]/div[1]/section/div[2]/div/div/div[2]/div[16]/form/div[11]/input")).click();
+				driver.findElement(By.xpath("/html/body/div[8]/div[1]/section/div[2]/div/div/div[2]/div[19]/form/div[11]/input")).click();
 				Thread.sleep(2000);
 				pageAlerta.alertaPostDetalle();
 				Thread.sleep(2000);

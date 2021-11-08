@@ -3,7 +3,7 @@ Tipo CPE: Boleta
 Subtipo CPE: Cargo
 Tipo Cargo: Recargo al consumo y/o propinas
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/1A2F02543F55C34315F78A34D122A1B3985BD538?k=7e5370cab4210cae2ae70509957a22e9
-Número de CPE: BP0100000735
-Resultado: La BOLETA BP01-00000735, ha sido ACEPTADO
+URL: http://qaacepta2108.acepta.pe/v01/0365674079465D502696EAE3B8B71FA5FA2D6003?k=a584915619a2b15b63ba06b0b07b00aa
+Número de CPE: BP0100000832
+Resultado: 
 ScreenShot de la traza

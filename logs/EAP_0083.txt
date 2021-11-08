@@ -1,7 +1,7 @@
 Log de Caso de Prueba EAP_0083
 Tipo CPE: Nota Débito
 Subtipo CPE: Exonerada Gratuita
-URL: http://qaacepta2107.acepta.pe/v01/9ED790C5FBE6955F4895EEE4D89EBA1E3A374211?k=365797d92beefa601612fc88c1e72585
-Número de CPE: FHHH00000087
-Resultado: 
+URL: http://qaacepta2108.acepta.pe/v01/7D351C3C6186F879A6AE5A3A08E4D2600D0B1BEA?k=fd5f9b821e5b524b4d936e657210bc7a
+Número de CPE: FHHH00000100
+Resultado: CPE Rechazado por la OSE, código de Error: 2209-El documento modificado en la Nota de debito no esta registrada.-
 ScreenShot de la traza

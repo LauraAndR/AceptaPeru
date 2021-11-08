@@ -3,8 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Inafecta Gratuita
 Tipo Operacion SUNAT: Transferencia gratuita
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/B50976ACF2965F8B27CA9A80E900CBB809CEAFD3?k=d8f1cab3b975f6b3b4c765dbaa02f04d
-Número de CPE: FHHH00000550
-Resultado: La FACTURA FHHH-00000550, ha sido OBSERVADO
+URL: http://qaacepta2108.acepta.pe/v01/CD47A212CE56DD80D866C196C4E9F0D5F97D0BDF?k=419942c58ed4517e5fc324d9c9fbc710
+Número de CPE: FHHH00000631
+Resultado: La FACTURA FHHH-00000631, ha sido OBSERVADO
 Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

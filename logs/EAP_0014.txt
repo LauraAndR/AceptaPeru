@@ -3,7 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Cargo
 Tipo Cargo: Si afectan a la base imponible del IGV/IVAP
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/1BD8E5E761B27A1F9370032B57E464161BE737DB?k=dcea7306db5c0fd4bab7faed0876224f
-Número de CPE: FHHH00000558
-Resultado: CPE Rechazado por la OSE, código de Error: 3025-El dato ingresado en factor de cargo o descuento global no cumple con el formato establecido..-
+URL: http://qaacepta2108.acepta.pe/v01/E48342E1585C150ED41BE9AAA8AD2FED5B6E4D76?k=f892a70f6da1fb11d48d67c9b0f79b08
+Número de CPE: FHHH00000608
+Resultado: La FACTURA FHHH-00000608, ha sido OBSERVADO
+Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

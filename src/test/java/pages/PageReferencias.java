@@ -94,4 +94,32 @@ public class PageReferencias {
 			}
 		}while(i==0);
 	}
+	
+	public void folioReferenciaNotaDebito (String folio,String fecha, String caso) throws InterruptedException, FileNotFoundException, InvalidFormatException, IOException {
+		PageAlerta pageAlerta = new PageAlerta(driver);
+		int i=0;
+		int j=0;
+		do {
+			try {
+				driver.findElement(By.name("referencias_folio")).sendKeys(folio);
+				Thread.sleep(2000);
+				driver.findElement(By.name("referencias_fecha")).sendKeys(fecha);
+				Thread.sleep(2000);
+				driver.findElement(By.id("referencias_tipo_nota")).sendKeys("Penalidades / Otros conceptos");
+				Thread.sleep(2000);
+				driver.findElement(By.name("referencias_descripcion")).sendKeys("PRUEBAQA");
+				Thread.sleep(2000);
+				crearDocEvidencia.modificarArchivoEvidencia(caso, "Se Agregan Referencias Nota Debito");
+				capturaPantalla.takeScreenShotTest(driver, "Datos_Referencia_NotaDebito", caso);
+				i=1;
+			} catch(Exception e) {
+				pageAlerta.alertaManejoError();
+				j++;
+				if(j==3) {
+					System.out.println("No se puede agregar datos de referencia Nota Debito");
+					i=1;
+				}
+			}
+		}while(i==0);
+	}
 }

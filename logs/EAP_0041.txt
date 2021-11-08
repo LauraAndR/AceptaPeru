@@ -1,1 +1,10 @@
 Log de Caso de Prueba EAP_0041
+Tipo CPE: Factura
+Subtipo CPE: Exonerada Gratuita
+Tipo Exonerda Gratuita: Transferencia gratuita
+Seleccion tipo de documento
+URL: http://qaacepta2108.acepta.pe/v01/DA07A4F8332B8E935A6F1C15254D1637C36E8C06?k=1f6209c2a5d913d8f72312c265826fd8
+Número de CPE: FHHH00000617
+Resultado: La FACTURA FHHH-00000617, ha sido OBSERVADO
+Debe consignar la informacion del tipo de transaccion del comprobante
+ScreenShot de la traza

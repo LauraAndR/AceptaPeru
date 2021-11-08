@@ -83,7 +83,7 @@ public class PageDatosEmision {
 //				}
 				
 				driver.findElement(By.name("fecha_emision")).sendKeys(fechaEmision);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Se Agrega Fecha de Emisión");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Se Agrega Fecha de Emisión");
 				capturaPantalla.takeScreenShotTest(driver, "Fecha_Emision",caso);
 				Thread.sleep(2000);
 //				driver.findElement(By.name("fecha_vencimiento")).sendKeys(fechaVencimiento);

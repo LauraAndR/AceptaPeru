@@ -2,7 +2,4 @@ Log de Caso de Prueba EAP_0082
 Tipo CPE: Nota Débito
 Subtipo CPE: Inafecta Gratuita
 Tipo Inafecta Gratuita: Retiro por Convenio Colectivo
-URL: http://qaacepta2107.acepta.pe/v01/7F7A387314A73FBA6915071E87A7A270F5675E47?k=ef454d492298695bac37b3a8f1324753
-Número de CPE: FHHH00000089
-Resultado: CPE Rechazado por la OSE, código de Error: 2209-El documento modificado en la Nota de debito no esta registrada.-
-ScreenShot de la traza
+URL: http://qaacepta2111.acepta.pe/v01/26FDC3E1C0A32D59EADAFF4E992FE5451C136C2E?k=46ac5e507b550194da1911ba460eab2e

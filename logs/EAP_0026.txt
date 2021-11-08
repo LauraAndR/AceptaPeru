@@ -2,8 +2,7 @@ Log de Caso de Prueba EAP_0026
 Tipo CPE: Factura
 Subtipo CPE: Afecta Gratuita
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/FB7F908294D4620FBC178561C2DD51A250B797A6?k=d584250348d47b6a67979d99d2b8dceb
-Número de CPE: FHHH00000551
-Resultado: La FACTURA FHHH-00000551, ha sido OBSERVADO
-Debe consignar la informacion del tipo de transaccion del comprobante
+URL: http://qaacepta2108.acepta.pe/v01/B8E0F5845AD7D868EF91FB232738528240987E84?k=9e51391e87a7ca901d5f66e41021a5e3
+Número de CPE: FHHH00000601
+Resultado: CPE Rechazado por la OSE, código de Error: 3150-El XML no contiene el tag de Cr\351ditos Hipotecarios: Tipo de pr\351stamo.-
 ScreenShot de la traza

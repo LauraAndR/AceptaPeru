@@ -3,7 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Cargo
 Tipo Cargo: No afectan a la base imponible del IGV/IVAP
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/E36CF9DAFA3C033FFFB66929DC66C2B3D3C56459?k=5ddde34bba260d568bffe8865f3c0a35
-Número de CPE: FHHH00000562
-Resultado: CPE Rechazado por la OSE, código de Error: 3025-El dato ingresado en factor de cargo o descuento global no cumple con el formato establecido..-
+URL: http://qaacepta2108.acepta.pe/v01/6EE3F193EFA56D1713C973F81CC328132B6648D8?k=041ad0b05722426407d8e98379a79c79
+Número de CPE: FHHH00000612
+Resultado: La FACTURA FHHH-00000612, ha sido OBSERVADO
+El Código producto de SUNAT no es válido
 ScreenShot de la traza

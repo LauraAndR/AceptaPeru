@@ -1,7 +1,7 @@
 Log de Caso de Prueba EAP_0071
 Tipo CPE: Nota Crédito
 Subtipo CPE: Exonerada
-URL: http://qaacepta2107.acepta.pe/v01/C7D3EB0B890B750CE8E3D3B3B36971A02C0881CB?k=cd46bc0741a02c5351281b20c1f49cd5
-Número de CPE: FHHH00000087
-Resultado: La NOTA_CREDITO FHHH-00000087, ha sido ACEPTADO
+URL: http://qaacepta2108.acepta.pe/v01/107DC28C4FF01BB7B93E77AB7ADAD62ABD5B1523?k=55582998cd4f499085a9c0d721ae7c6c
+Número de CPE: FHHH00000121
+Resultado: CPE Rechazado por la OSE, código de Error: 2119-El documento modificado en la Nota de credito no esta registrada..-
 ScreenShot de la traza

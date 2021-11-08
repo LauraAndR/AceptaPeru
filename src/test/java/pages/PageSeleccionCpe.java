@@ -37,7 +37,7 @@ public class PageSeleccionCpe {
 					if(opcion.equalsIgnoreCase("Emisión Express")) {
 						driver.findElement(By.xpath("//*[@id=\"panel-lis-ul\"]/child::li["+h+"]")).click();
 						driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-						crearDocEvidencia.modificarArchivoEvidencia(caso, "Click a Emisión Express");
+						//crearDocEvidencia.modificarArchivoEvidencia(caso, "Click a Emisión Express");
 						capturaPantalla.takeScreenShotTest(driver, "Click_Emisión_Express", caso);
 //						System.out.println(h);
 						op=h;
@@ -86,7 +86,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo CPE: "+tipo);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Selección Tipo de CPE");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Selección Tipo de CPE");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_CPE_"+tipo, caso);
 				i=1;
 			} catch(Exception e) {
@@ -140,7 +140,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Subtipo CPE: "+subtipo);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Selección Subtipo de CPE");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Selección Subtipo de CPE");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Subtipo_CPE_"+subtipo, caso);
 				i=1;
 			} catch (Exception e) {
@@ -194,7 +194,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Operacion SUNAT: "+tipoOperacion);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Operacion SUNAT");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Operacion SUNAT");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Operacion_SUNAT", caso);
 				i=1;
 			} catch(Exception e) {
@@ -242,7 +242,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Afecta Gratuita: "+tipoOperacion);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Afecta Gratuita");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Afecta Gratuita");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Afecta_Gratuita", caso);
 				i=1;
 			} catch (Exception e) {
@@ -290,7 +290,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Inafecta Gratuita: "+tipoOperacion);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Inafecta Gratuita");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Inafecta Gratuita");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Inafecta_Gratuita", caso);
 				i=1;
 			} catch (Exception e) {
@@ -326,7 +326,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Cargo: "+tipoCargo);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Cargo");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Cargo");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Cargo", caso);
 				i=1;
 			} catch (Exception e){
@@ -356,7 +356,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Exonerda Gratuita: "+tipoExonerada);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Exonerda Gratuita");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Exonerda Gratuita");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Exonerda_Gratuita", caso);
 				i=1;
 			} catch(Exception e) {
@@ -389,7 +389,7 @@ public class PageSeleccionCpe {
 				}
 				Thread.sleep(2000);
 				log.modificarArchivoLog(caso, "Tipo Cargo: "+tipoDescuento);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Descuento");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Seleccion Tipo Descuento");
 				capturaPantalla.takeScreenShotTest(driver, "Seleccion_Tipo_Descuento", caso);
 				i=1;
 			} catch (Exception e){

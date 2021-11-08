@@ -7,10 +7,12 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import common.CapturaPantalla;
 import common.CrearDocEvidencia;
+import common.Log;
 
 public class PageDetalle {
 	private WebDriver driver;
@@ -69,7 +71,55 @@ public class PageDetalle {
 			}
 		}while(i==0);
 	}
-
+	
+	//copia Detalle Producto
+	public void completarDetalleProductos2(String caso,String cantidad, String precio) throws InterruptedException, FileNotFoundException, InvalidFormatException, IOException{
+		PageAlerta pageAlerta= new PageAlerta(driver);
+		int i=0;
+		int c=0;
+		do {
+			try {
+				
+				driver.findElement(By.xpath("//*[@id=\"codigo_producto_datalist\"]/child::option[1]")).getAttribute("value");
+				driver.findElement(By.name("codigo_producto")).click();
+				driver.findElement(By.name("codigo_producto")).clear();
+				driver.findElement(By.name("codigo_producto")).sendKeys("52");
+				driver.findElement(By.name("codigo_producto")).sendKeys(Keys.TAB);
+				Thread.sleep(2000);
+				driver.findElement(By.name("detalle_producto")).clear();
+				driver.findElement(By.name("detalle_producto")).sendKeys("DETALLEQA");
+				Thread.sleep(2000);
+				driver.findElement(By.name("cantidad_producto")).sendKeys(cantidad);
+				Thread.sleep(2000);
+				driver.findElement(By.name("precio_producto")).sendKeys(precio);
+				Thread.sleep(2000);
+				driver.findElement(By.name("precio_producto")).sendKeys(Keys.TAB);
+				//agregar lo de la unidad de medida
+				
+				int hijos = driver.findElements(By.xpath("//*[@id=\"unidad_medida_producto_datalist\"]/child::option")).size();
+				String[] uni_med = new String[hijos];
+				for(int h=1;h<=hijos;h++) {
+					uni_med[h-1]=driver.findElement(By.xpath("//*[@id=\"unidad_medida_producto_datalist\"]/child::option["+h+"]")).getAttribute("value");					
+				}
+				int j=(int)(Math. random()*hijos+0);
+				driver.findElement(By.name("unidad_medida_producto")).click();
+				driver.findElement(By.name("unidad_medida_producto")).clear();
+				driver.findElement(By.name("unidad_medida_producto")).sendKeys(uni_med[j]);
+				driver.findElement(By.name("unidad_medida_producto")).sendKeys(Keys.TAB);
+				Thread.sleep(2000);
+				i=1;
+			} catch (Exception e) {
+				pageAlerta.alertaManejoError();
+				c++;
+				if(c==3) {
+					System.out.println("No fue posible completar los datos del producto");
+					i=1;
+				}
+			}
+		}while(i==0);
+	}
+	
+	
 	public void botonAgregarProductosdivTreintayUno(String caso) throws InterruptedException, FileNotFoundException, InvalidFormatException, IOException{
 		PageAlerta pageAlerta= new PageAlerta(driver);
 		int i=0;

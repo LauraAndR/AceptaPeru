@@ -3,7 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Cargo
 Tipo Cargo: Recargo al consumo y/o propinas
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/0B92DEECAB7895C597FF8AE8F37081353D71095D?k=f651ad0e7e2cfc897d415fa946a86c86
-Número de CPE: FHHH00000565
-Resultado: CPE Rechazado por la OSE, código de Error: 3025-El dato ingresado en factor de cargo o descuento global no cumple con el formato establecido..-
+URL: http://qaacepta2108.acepta.pe/v01/9736E725F4CC14AF947012839AF5B5E57C68EE57?k=c896a099a1de9e3b5a5649f546415771
+Número de CPE: FHHH00000616
+Resultado: La FACTURA FHHH-00000616, ha sido OBSERVADO
+Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

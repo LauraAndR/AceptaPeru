@@ -1,8 +1,4 @@
 Log de Caso de Prueba EAP_0093
 Tipo CPE: Factura
 Subtipo CPE: Exportación
-URL: http://qaacepta2107.acepta.pe/v01/7BD4A2DD5240065EDDA0CB619929AF5219B2A4D4?k=cd32e098ecb8b543b53c2950d5f3b4f7
-Número de CPE: FP0100001323
-Resultado: La FACTURA FP01-00001323, ha sido OBSERVADO
-Debe consignar la informacion del tipo de transaccion del comprobante
-ScreenShot de la traza
+URL: http://qaacepta2111.acepta.pe/v01/FE080CF445A813FBE03483A57EF7BF700E6E4CBD?k=8175d85d1b5da4f76ffd80636229d895

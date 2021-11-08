@@ -3,8 +3,7 @@ Tipo CPE: Boleta
 Subtipo CPE: Descuentos
 Tipo Cargo: Si afectan a la base imponible
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/249D9391CB45A2EA287FBF90C65CE4D21D1E5149?k=1f1e041dd529f47f61efd7462d305296
-Número de CPE: BP0100000725
-Resultado: La BOLETA BP01-00000725, ha sido OBSERVADO
-El Código producto de SUNAT no es válido
+URL: http://qaacepta2108.acepta.pe/v01/96BBEB71F29BE4EADC9A3188E10682EECB28C004?k=a027c60f6809f26a6cfa97f5d071022a
+Número de CPE: BP0100000819
+Resultado: La BOLETA BP01-00000819, ha sido ACEPTADO
 ScreenShot de la traza

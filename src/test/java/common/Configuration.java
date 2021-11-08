@@ -17,4 +17,13 @@ public class Configuration {
 			return inPath;
 		}
 	}
+	
+	/*
+	 * USUARIOS
+	 */
+		
+	public static String USER_NELIDA = "nelidanv@gmail.com";
+	public static String PASS_NELIDA = "55449408";
+	
+	
 }

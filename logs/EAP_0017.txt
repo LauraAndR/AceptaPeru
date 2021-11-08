@@ -3,8 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Cargo
 Tipo Cargo: No afectan a la base imponible del IGV/IVAP
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/DA675E7982853F222922F2CE40B60340F5F33E59?k=469c54b0fb2eb20340072cc0244e5aaa
-Número de CPE: FHHH00000561
-Resultado: La FACTURA FHHH-00000561, ha sido OBSERVADO
+URL: http://qaacepta2108.acepta.pe/v01/B4B90187ADE9AB41B3BF197514CE4A05B85588A0?k=7f28097e796af70e74ed8a628d3031ea
+Número de CPE: FHHH00000611
+Resultado: La FACTURA FHHH-00000611, ha sido OBSERVADO
 Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

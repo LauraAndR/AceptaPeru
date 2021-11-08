@@ -3,8 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Descuentos
 Tipo Cargo: Si afectan a la base imponible
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/D42B2248E2FB6CAE10D93C3C9C265553D9C2C47F?k=f2d0a9f9b2d499c03dadf1fe3c71df9d
-Número de CPE: FP0100001325
-Resultado: La FACTURA FP01-00001325, ha sido OBSERVADO
+URL: http://qaacepta2108.acepta.pe/v01/35AB5F4F9A6FDC3619A067B935E048528063C7DC?k=2fab7aee36a5ec5137848914c7c780ea
+Número de CPE: FP0100001400
+Resultado: La FACTURA FP01-00001400, ha sido OBSERVADO
 Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

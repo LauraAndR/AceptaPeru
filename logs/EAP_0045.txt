@@ -3,3 +3,7 @@ Tipo CPE: Boleta
 Subtipo CPE: Cargo
 Tipo Cargo: Si afectan a la base imponible del IGV/IVAP
 Seleccion tipo de documento
+URL: http://qaacepta2108.acepta.pe/v01/EB4187A2FED26555A3081F23BCAC5D7C21874CBC?k=ef06efa5fc69e4a8cb17a55a12dbcc0a
+Número de CPE: BP0100000826
+Resultado: La BOLETA BP01-00000826, ha sido ACEPTADO
+ScreenShot de la traza

@@ -1,8 +1,8 @@
 Log de Caso de Prueba EAP_0092
 Tipo CPE: Factura
 Subtipo CPE: Exportación
-URL: http://qaacepta2107.acepta.pe/v01/9853CF946DC0E96FA62D92DFFECC600AE34252B0?k=54030086090c9dc719c58bc681d70265
-Número de CPE: FP0100001322
-Resultado: La FACTURA FP01-00001322, ha sido OBSERVADO
-Debe consignar la informacion del tipo de transaccion del comprobante
+URL: http://qaacepta2108.acepta.pe/v01/8D82E1E7F491B481B70179CF268322C3F9F742B1?k=e57d4e6ab69838827ceb214a3eb28277
+Número de CPE: FP0100001408
+Resultado: La FACTURA FP01-00001408, ha sido OBSERVADO
+El Código producto de SUNAT no es válido
 ScreenShot de la traza

@@ -3,8 +3,9 @@ Tipo CPE: Factura
 Subtipo CPE: Descuentos
 Tipo Cargo: No afectan a la base imponible
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/D6CBA963BC45AF76D51388E9E92ACABD303FB66A?k=9ea8be3a032beb97f4f4f5c636a08cf1
-Número de CPE: FP0100001326
-Resultado: La FACTURA FP01-00001326, ha sido OBSERVADO
+URL: http://qaacepta2108.acepta.pe/v01/7CECEC774461B47F3219F68081A1F67CE2D61143?k=54879dd3d9c9a7929c3517cc8b097fac
+Número de CPE: FP0100001401
+Resultado: La FACTURA FP01-00001401, ha sido OBSERVADO
 El Código producto de SUNAT no es válido
+Cliente recibe evento 2021-08-25 20:15:07
 ScreenShot de la traza

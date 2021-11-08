@@ -3,8 +3,8 @@ Tipo CPE: Factura
 Subtipo CPE: Inafecta Gratuita
 Tipo Operacion SUNAT: Retiro por Bonificación
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/A9B07E94326B34839021AE4A7EF81556B54ED44E?k=0b4e96b1c3fc45be34e147ea593487b8
-Número de CPE: FHHH00000544
-Resultado: La FACTURA FHHH-00000544, ha sido OBSERVADO
+URL: http://qaacepta2108.acepta.pe/v01/442A44B48F98E2888CB0698529249EDF7E11F481?k=e651dd49cc982fb829cdc9eb208b057e
+Número de CPE: FHHH00000627
+Resultado: La FACTURA FHHH-00000627, ha sido OBSERVADO
 Debe consignar la informacion del tipo de transaccion del comprobante
 ScreenShot de la traza

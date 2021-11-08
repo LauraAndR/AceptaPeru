@@ -36,10 +36,10 @@ public class PageReceptor {
 				driver.findElement(By.name("ruc_dni")).sendKeys(rucEmisor);
 				Thread.sleep(1000);
 				driver.findElement(By.name("ruc_dni")).sendKeys(Keys.TAB);
-				Thread.sleep(5000);
+				Thread.sleep(1000);
 				driver.findElement(By.name("lista_correos_receptor_agregar")).click();
-				Thread.sleep(2000);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
+				Thread.sleep(1000);
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
 				capturaPantalla.takeScreenShotTest(driver, "Datos_Receptor",caso);
 				i=1;
 			} catch(Exception e) {
@@ -57,16 +57,16 @@ public class PageReceptor {
 		public void datosReceptor (String caso, String razonSocial, String mailReceptor) throws InterruptedException, FileNotFoundException, InvalidFormatException, IOException {
 			
 			driver.findElement(By.name("razon_social")).clear();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.name("razon_social")).sendKeys(razonSocial);
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.name("lista_correos_receptor")).clear();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.name("lista_correos_receptor")).sendKeys(mailReceptor);
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.name("lista_correos_receptor")).sendKeys(Keys.TAB);
-			Thread.sleep(2000);
-			crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
+			Thread.sleep(1000);
+			//crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
 			capturaPantalla.takeScreenShotTest(driver, "Datos_Receptor",caso);
 		}
 	
@@ -125,7 +125,7 @@ public class PageReceptor {
 					rol.selectByVisibleText(tipoDocumento); 
 					String texto ="Seleccion tipo de documento";
 					log.modificarArchivoLog(caso,texto);
-					crearDocEvidencia.modificarArchivoEvidencia(caso,texto);
+					//crearDocEvidencia.modificarArchivoEvidencia(caso,texto);
 					texto=texto.replace(" ","_");
 					capturaPantalla.takeScreenShotTest(driver,texto, caso);
 					i=1;
@@ -138,7 +138,7 @@ public class PageReceptor {
 					}
 				}
 			}while(i==0);
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		}
 	
 	public void completarRazonSocial(String razonSocial, String caso) throws InterruptedException, FileNotFoundException, InvalidFormatException, IOException {
@@ -148,8 +148,8 @@ public class PageReceptor {
 			try {
 				driver.findElement(By.name("razon_social")).click();
 				driver.findElement(By.name("razon_social")).sendKeys(razonSocial);
-				Thread.sleep(2000);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
+				Thread.sleep(1000);
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
 				capturaPantalla.takeScreenShotTest(driver, "Datos_Receptor", caso);
 				i=1;
 			} catch(Exception e) {
@@ -170,19 +170,19 @@ public class PageReceptor {
 			try {
 				Select tipoDocumento = new Select (driver.findElement(By.id("tipo_documento")));
 				tipoDocumento.selectByValue("1");
-				Thread.sleep(2000);
+				Thread.sleep(1000);
 				driver.findElement(By.name("ruc_dni")).click();
 				driver.findElement(By.name("ruc_dni")).sendKeys("12345678");
-				Thread.sleep(2000);
+				Thread.sleep(1000);
 				driver.findElement(By.name("ruc_dni")).sendKeys(Keys.TAB);
-				Thread.sleep(2000);
+				Thread.sleep(1000);
 				driver.findElement(By.name("razon_social")).sendKeys(razonSocial);
-				Thread.sleep(2000);
+				Thread.sleep(1000);
 				driver.findElement(By.name("lista_correos_receptor_agregar")).click();
 				PageAlerta pageAlerta = new PageAlerta(driver);
 				pageAlerta.alertaManejoError();
-				Thread.sleep(2000);
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
+				Thread.sleep(1000);
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Datos de Receptor");
 				capturaPantalla.takeScreenShotTest(driver, "Datos_Receptor", caso);
 				i=1;
 			} catch(Exception e) {
@@ -203,9 +203,9 @@ public class PageReceptor {
 		do {
 			try {
 				driver.findElement(By.xpath("//*[@id=\"form_params\"]/div[23]/div/div[2]/input")).click();
-				Thread.sleep(2000);          
+				Thread.sleep(1000);          
 				pageAlerta.alertaPostDetalle();
-				crearDocEvidencia.modificarArchivoEvidencia(caso, "Se agrega datos Receptor");
+				//crearDocEvidencia.modificarArchivoEvidencia(caso, "Se agrega datos Receptor");
 				capturaPantalla.takeScreenShotTest(driver, "Agregar_Datos_Receptor",caso);
 				i=1;
 			} catch (Exception e) {

@@ -1,7 +1,7 @@
 Log de Caso de Prueba EAP_0094
 Tipo CPE: Nota Crédito
 Subtipo CPE: Exportación
-URL: http://qaacepta2107.acepta.pe/v01/780C8A67FE217663F49D6C5F03A9DBAA7632A658?k=659e2bf36c42229c888522f8ca5dfc15
-Número de CPE: FP0100000316
+URL: http://qaacepta2108.acepta.pe/v01/DC73B71DBBF182D0874AC435DD029A702672E817?k=df279e778380b5b2c822bc9888a633e1
+Número de CPE: FP0100000339
 Resultado: CPE Rechazado por la OSE, código de Error: 2119-El documento modificado en la Nota de credito no esta registrada..-
 ScreenShot de la traza

@@ -3,7 +3,8 @@ Tipo CPE: Boleta
 Subtipo CPE: Cargo
 Tipo Cargo: Si afectan a la base imponible del IGV/IVAP
 Seleccion tipo de documento
-URL: http://qaacepta2107.acepta.pe/v01/44E727C7C0BF122614D3004C17908745A4F67734?k=af92615b6440e01d4c7b4e804e4158cf
-Número de CPE: BP0100000730
-Resultado: La BOLETA BP01-00000730, ha sido ACEPTADO
+URL: http://qaacepta2108.acepta.pe/v01/2FAC773F830EED70F45E3247542DCE37F587F188?k=9d8403e4c80d991e879f03da318e3ecc
+Número de CPE: BP0100000825
+Resultado: La BOLETA BP01-00000825, ha sido OBSERVADO
+El Código producto de SUNAT no es válido
 ScreenShot de la traza

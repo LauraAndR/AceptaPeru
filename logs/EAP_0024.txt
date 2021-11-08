@@ -2,3 +2,8 @@ Log de Caso de Prueba EAP_0024
 Tipo CPE: Factura
 Subtipo CPE: Afecta-Inafecta
 Seleccion tipo de documento
+URL: http://qaacepta2108.acepta.pe/v01/B1FB9FA144966A044B0BC6346B8C3453963D8314?k=1ce90478af0a9a6b78c693ca9441b55c
+Número de CPE: FHHH00000605
+Resultado: La FACTURA FHHH-00000605, ha sido OBSERVADO
+Debe consignar la informacion del tipo de transaccion del comprobante
+ScreenShot de la traza
